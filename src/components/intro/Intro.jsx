@@ -1,12 +1,8 @@
 import "./intro.css";
-
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from '../../assets/Me.png'
-
-// import ME from '../../assets/Rasif Tagizade image.jpg';
-
+import img from "../../assets/Me.jpeg";
 
 const Intro = () => {
   return (
@@ -16,7 +12,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={img} alt="Rasif Taghizade" />
+            <img src={img} alt="Kaustubh Aher" />
           </div>
         </div>
         <div className="about__content">
@@ -24,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1.5 year</small>
+              <small>1.5 Years in Full-Stack Development</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -33,14 +29,13 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1+ years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
+            Final-year B.Tech Computer Engineering student with strong skills in
+            Java, Python, and full-stack development (MERN stack & Spring Boot).
+            Passionate about building scalable, secure applications with
+            production-ready code. I have worked on real-time chat apps,
+            e-learning platforms, and hospital management systems, with hands-on
+            experience in React.js, Node.js, MongoDB, Tailwind CSS, and
+            deployment on AWS.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
